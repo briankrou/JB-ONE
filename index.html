@@ -390,57 +390,52 @@
         
         <!--formulario -->
         
-        <div class="container formulario">
-            <p>Formulario de contacto</p>
-            <font>
-                <div>
-
-                </div>
-                    <div class="font-nombre">
-                        <div class="">
+        <div class="container" >
+            <div class="container-interno">
+                <p>Formulario de contacto</p>
+                <font class="formulario">
+                        <div class="font-contenedor-nombre">
                             <div class="">
-                            <label  class="font-label">Nombre:*</label>
-                            <input type="email" class="font-input" id="exampleFormControlInput1" placeholder="name@example.com">                       
-                        </div>
+                                <label  class="font-label">Nombre:*</label>
+                                <input type="text" class="font-input font-input-t " id="exampleFormControlInput1" placeholder="nombre" >                       
                             </div>
-                          <div class="">
-                            <label  class="font-label">Apellido:</label>
-                            <input type="email" class="font-input" id="exampleFormControlInput1" placeholder="name@example.com">                       
+                            <div class="">
+                                <label  class="font-label">Apellido:</label>
+                                <input type="text" class="font-input font-input-t" id="exampleFormControlInput1" placeholder="apellido">                       
+                            </div>
                         </div>
-
-                    </div>
-                    <div class="font-email">
-                        <label for="exampleFormControlInput1" class="font-label">Correo electronico:*</label>
-                        <input type="email" class="font-input" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
+                        <div class="font-contenedor-email">
+                            <label for="exampleFormControlInput1" class="font-label">Correo electronico:*</label>
+                            <input type="email" class="font-input font-input-t" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+     
+                        <div class="font-contenedor-contacto">
+                            <div class="">
+                                <label  class="font-label">Telefono*</label>
+                                <input type="text" class="font-input font-input-t" id="" placeholder="Telefono">
+                            </div>
+                            <div>
+                                 <label  class="font-label">Asunto*</label>
  
-                    <div class="font-contacto">
-                        <div class="">
-                            <label  class="font-label">Telefono*</label>
-                            <input type="text" class="font-input" id="" placeholder="Telefono">
+                                <select class="font-input" required name="" id="">
+                                    <option value="">Necesito uno de sus productos</option>
+                                    <option value="">Informacion acerca de nuestros productos</option>
+                                    <option value="">Queja o reclamo</option>
+                                    <option value="">Otro</option>
+                                </select>
+                            </div>
                         </div>
-                        <div>
-                            <label  class="font-label">Asunto*</label>
-                            <select required name="" id="">
-                                <option value="">Necesito uno de sus productos</option>
-                                <option value="">Informacion acerca de nuestros productos</option>
-                                <option value="">Queja o reclamo</option>
-                                <option value="">Otro</option>
-                            </select>
+                        <div class="cuentanosMas">            
+                                <label  class="font-label">Cuentanos mas </label>
+                                <textarea class="font-input font-input-t" name="" id="" cols="2" rows="3"></textarea>                        
                         </div>
-                    </div >
-                      <div class="cuentanosMas">
-                                               
-                            <label  class="font-label">Cunetanos mas </label>
-                            <textarea class="font-input" name="" id="" cols="2" rows="3"></textarea>
-                                                    
-                      </div>
-                      <div  class="contenedor-btnformulario">
-                        <input  type="submit" value="Enviar formulario">
-                    </div>
-                </div>
-
-            </font>
+                        
+                        <div  class="contenedor-btnformulario">
+                            <input  type="submit" value="Enviar formulario">
+                        </div>
+    
+                </font>
+            </div>
         </div>
 
 		<div class="sep-border margin-top60 margin-bottom60"></div>
