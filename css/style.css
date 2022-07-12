@@ -5597,6 +5597,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	display: none;
 }
 .circulo-item p{
+	user-select: none;
 	font-size: 12px;
 	font-style: oblique;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -5625,6 +5626,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	justify-content: center;
 }
 .circulo-item-central p{
+	user-select: none;
 	text-align: center;
 	color: teal;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
