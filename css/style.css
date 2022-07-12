@@ -5569,7 +5569,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 
 .circulo{
-	border: solid 1px teal;
+	border: solid 0.1px teal;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -5586,7 +5586,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	height: 8rem;
 }
 .circulo-item:hover{
-	box-shadow: 0 0 2px 2px rgba(0, 128, 128, 0.5);
+	box-shadow: 0 0 5px 1px rgba(0, 128, 128, 0.5);
 	transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
