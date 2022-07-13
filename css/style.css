@@ -5569,7 +5569,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 
 .circulo{
-	border: solid 0.1px teal;
+	border: none;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
@@ -5579,6 +5579,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	box-shadow: 0 0 5px 1px rgba(0, 128, 128, 0.5);
 }
 
 .circulo-item{
@@ -5586,7 +5587,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	height: 8rem;
 }
 .circulo-item:hover{
-	box-shadow: 0 0 5px 1px rgba(0, 128, 128, 0.5);
+
 	transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
@@ -5618,12 +5619,13 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 }
 
 .circulo-item-central{
-	background-color: rgba(0, 128, 128, 0.5);
+	background-image: linear-gradient(white,rgba(0, 128, 128, 0.5));
 	width: 12rem;
 	height:	12rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	box-shadow: 0 0 5px 1px #00769d;
 }
 .circulo-item-central p{
 	user-select: none;
