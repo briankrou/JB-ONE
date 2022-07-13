@@ -5569,6 +5569,7 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 
 
 .circulo{
+
 	border: none;
 	border-radius: 100%;
 	-webkit-border-radius: 100%;
@@ -5580,9 +5581,11 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	flex-direction: column;
 	align-items: center;
 	box-shadow: 0 0 5px 1px rgba(0, 128, 128, 0.5);
+
 }
 
 .circulo-item{
+	cursor:none;
 	width: 8rem;
 	height: 8rem;
 }
@@ -5696,8 +5699,11 @@ body.nav-shop-filter-open #nav-shop-filter { left:0px; }
 	-moz-border-radius: 12px;
 	-ms-border-radius: 12px;
 	-o-border-radius: 12px;
-	box-shadow: 0 0 px 0.5px rgba(0, 128, 128, 0.5);;
+	box-shadow: 0 0 4px 0.1px rgba(0, 128, 128, 0.5);
+
 }
+
+
 .container-interno p{
 	font-size: larger;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
