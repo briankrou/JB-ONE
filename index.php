@@ -63,17 +63,17 @@
                 <button type="button" class="navbar-btn-close"><i class="ion ion-close"></i>Cerrar</button>
 
                 <div class="navbar-menu">
-                   <ul class="nav">
-                       <li class="menu-item menu-item-has-children">
-                           <a class="i" href="#">Inicio</a>
-                       </li>
-                       <li class="menu-item menu-item-has-children">
-                           <a href="#servicios">Servicios</a>
-                       </li>
-                       <li class="menu-item menu-item-has-children">
-                           <a href="#Proyectos">Proyectos</a>
-                       </li>
-                       <li class="menu-item menu-item-has-children">
+                 <ul class="nav">
+                     <li class="menu-item menu-item-has-children">
+                         <a class="i" href="#">Inicio</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                         <a href="#servicios">Servicios</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
+                         <a href="#Proyectos">Proyectos</a>
+                     </li>
+                     <li class="menu-item menu-item-has-children">
                         <a href="#contactenos">Contactenos</a>
                     </li>
                 </ul>
@@ -159,42 +159,42 @@
                                                     <li class="menu-item menu-item-has-children">
                                                         <a href="#">Pages 2</a>
                                                         <ul>
-                                                         <li class="menu-item"><a href="page-services-1.html">Services 1</a></li>
-                                                         <li class="menu-item"><a href="page-services-2.html">Services 2</a></li>
-                                                         <li class="menu-item"><a href="page-services-3.html">Services 3</a></li>
-                                                         <li class="menu-item"><a href="page-services-4.html">Services 4</a></li>
-                                                         <li class="menu-item"><a href="page-contact-us-1.html">Contact Us 1</a></li>
-                                                         <li class="menu-item"><a href="page-contact-us-2.html">Contact Us 2</a></li>
-                                                         <li class="menu-item"><a href="page-contact-us-3.html">Contact Us 3</a></li>
-                                                     </ul>
-                                                 </li>
-                                                 <li class="menu-item menu-item-has-children">
+                                                           <li class="menu-item"><a href="page-services-1.html">Services 1</a></li>
+                                                           <li class="menu-item"><a href="page-services-2.html">Services 2</a></li>
+                                                           <li class="menu-item"><a href="page-services-3.html">Services 3</a></li>
+                                                           <li class="menu-item"><a href="page-services-4.html">Services 4</a></li>
+                                                           <li class="menu-item"><a href="page-contact-us-1.html">Contact Us 1</a></li>
+                                                           <li class="menu-item"><a href="page-contact-us-2.html">Contact Us 2</a></li>
+                                                           <li class="menu-item"><a href="page-contact-us-3.html">Contact Us 3</a></li>
+                                                       </ul>
+                                                   </li>
+                                                   <li class="menu-item menu-item-has-children">
                                                     <a href="#">Special Pages</a>
                                                     <ul>
-                                                     <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a></li>
-                                                     <li class="menu-item"><a href="page-maintenance.html">Maintenance Mode</a></li>
-                                                     <li class="menu-item"><a href="page-search.html">Search Results</a></li>
-                                                     <li class="menu-item"><a href="page-pricing.html">Pricing</a></li>
-                                                     <li class="menu-item"><a href="page-faq.html">FAQ</a></li>
-                                                     <li class="menu-item"><a href="page-404.html">404 Page</a></li>
-                                                 </ul>
-                                             </li>
-                                             <li class="menu-item menu-item-has-children">
+                                                       <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a></li>
+                                                       <li class="menu-item"><a href="page-maintenance.html">Maintenance Mode</a></li>
+                                                       <li class="menu-item"><a href="page-search.html">Search Results</a></li>
+                                                       <li class="menu-item"><a href="page-pricing.html">Pricing</a></li>
+                                                       <li class="menu-item"><a href="page-faq.html">FAQ</a></li>
+                                                       <li class="menu-item"><a href="page-404.html">404 Page</a></li>
+                                                   </ul>
+                                               </li>
+                                               <li class="menu-item menu-item-has-children">
                                                 <a href="#">Page Templates</a>
                                                 <ul>
-                                                 <li class="menu-item"><a href="page-default.html">Default</a></li>
-                                                 <li class="menu-item"><a href="page-fullwidth.html">Full Width</a></li>
-                                                 <li class="menu-item"><a href="page-left-sidebar.html">Left Sidebar</a></li>
-                                                 <li class="menu-item"><a href="page-right-sidebar.html">Right Sidebar</a></li>
-                                                 <li class="menu-item"><a href="page-no-header.html">No Header</a></li>
-                                                 <li class="menu-item"><a href="page-header-image.html">Header Image</a></li>
-                                             </ul>
-                                         </li>
-                                     </ul>
-                                 </div>
-                             </div>
-                         </li>
-                         <li class="menu-item menu-item-has-children">
+                                                   <li class="menu-item"><a href="page-default.html">Default</a></li>
+                                                   <li class="menu-item"><a href="page-fullwidth.html">Full Width</a></li>
+                                                   <li class="menu-item"><a href="page-left-sidebar.html">Left Sidebar</a></li>
+                                                   <li class="menu-item"><a href="page-right-sidebar.html">Right Sidebar</a></li>
+                                                   <li class="menu-item"><a href="page-no-header.html">No Header</a></li>
+                                                   <li class="menu-item"><a href="page-header-image.html">Header Image</a></li>
+                                               </ul>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="menu-item menu-item-has-children">
                             <a href="#contactenos">Contactenos</a>
                         </li>
                     </ul>
@@ -274,11 +274,11 @@
         <div class="sep-border-shadow margin-top40 margin-bottom40"></div>
 
         <div class="post-heading-center margin-bottom40">
-           <h2>¿QUIERES INPULSAR TU EMPRESA O NEGOCIO?</h2>
-           <p>Con un buen desarrollo web y una buena estrategia de marketing digital podrás competir con cualquier empresa de tu sector en Internet. Trabaja de la mano de una agencia digital multinacional, que reúne, en su equipo, las características suficientes para hacer crecer a tu empresa en Internet.</p>
-       </div>
+         <h2>¿QUIERES INPULSAR TU EMPRESA O NEGOCIO?</h2>
+         <p>Con un buen desarrollo web y una buena estrategia de marketing digital podrás competir con cualquier empresa de tu sector en Internet. Trabaja de la mano de una agencia digital multinacional, que reúne, en su equipo, las características suficientes para hacer crecer a tu empresa en Internet.</p>
+     </div>
 
-       <div class="post-btn-section text-center" id="servicios">
+     <div class="post-btn-section text-center" id="servicios">
         <a href="#contactenos" class="btn-custom">Contactenos</a>
     </div>
 
@@ -298,7 +298,7 @@
         </div>
 
         <div class="col-sm-6">
-           <div class="post-heading-left margin-bottom30">
+         <div class="post-heading-left margin-bottom30">
             <p><img src="images/escritorio.jpg"></p>
         </div>
         <p></p>
@@ -455,34 +455,53 @@
 <!--formulario -->
 
 <div class="container" >
+
+    <?php
+    include_once ("Mail.php");
+
+    if (isset($_POST['send'])) {
+        try {
+            $mail = new Mail();
+            $mail->setNombre($_POST['nombre']);
+            $mail->setApellido($_POST['apellido']);
+            $mail->setEmail($_POST['email']);
+            $mail->setTelefono($_POST['telefono']);
+            $mail->setAsunto($_POST['asunto']);
+            $mail->setMensaje($_POST['mensaje']);
+            $mail->enviar();
+        } catch (Exception $e) {
+            $error = $e->getMessage();
+        }
+    }
+    ?>
     <div class="container-interno">
         <p>Formulario de contacto</p>
         <font class="formulario">
             <div class="font-contenedor-nombre">
                 <div class="">
                     <label  class="font-label">Nombre:*</label>
-                    <input type="text" class="font-input font-input-t form-control" id="" placeholder="nombre" >                       
+                    <input type="text" class="font-input font-input-t form-control" name="nombre" placeholder="nombre" >                       
                 </div>
                 <div class="">
                     <label  class="font-label">Apellido:</label>
-                    <input type="text" class="font-input font-input-t form-control" id="" placeholder="apellido">                       
+                    <input type="text" class="font-input font-input-t form-control" name="apellido" placeholder="apellido">                       
                 </div>
             </div>
             <div class="font-contenedor-email">
                 <label for="exampleFormControlInput1" class="font-label">Correo electronico:*</label>
-                <input type="email" class="font-input font-input-t form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="font-input font-input-t form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
 
             <div class="font-contenedor-contacto">
                 <div class="">
                     
                     <label  class="font-label">Telefono*</label>
-                    <input type="text" class="font-input font-input-t form-control" id="" placeholder="Telefono">
+                    <input type="text" class="font-input font-input-t form-control" id="" name="telefono" placeholder="Telefono">
                 </div>
                 <div>
-                   <label  class="font-label">Asunto*</label>
+                 <label  class="font-label">Asunto*</label>
 
-                   <select class="font-input" required name="" id="">
+                 <select class="font-input" required name="" name="asunto">
                     <option value="">Necesito uno de sus productos</option>
                     <option value="">Informacion acerca de productos</option>
                     <option value="">Queja o reclamo</option>
@@ -492,11 +511,11 @@
         </div>
         <div class="cuentanosMas">            
             <label  class="font-label">Cuentanos mas </label>
-            <textarea class="font-input font-input-t form-control" name="" id="" cols="2" rows="3"></textarea>                        
+            <textarea class="font-input font-input-t form-control" name="mensaje" id="" cols="2" rows="3"></textarea>                        
         </div>
 
         <div  class="contenedor-btnformulario">
-            <input  type="submit" value="Enviar formulario">
+            <input  type="submit" value="Enviar formulario" name="send">
         </div>
 
     </font>
@@ -519,13 +538,13 @@
         </div>
 
         <div class="footer-logo">
-           <img class="logoFooter" src="images/logo2.svg" alt="Logo">
-       </div>
+         <img class="logoFooter" src="images/logo2.svg" alt="Logo">
+     </div>
 
-       <p>JB-ONE&copy; 2022 by</p>
+     <p>JB-ONE&copy; 2022 by</p>
 
-   </div>
-   <!-- .container end -->
+ </div>
+ <!-- .container end -->
 
 </footer>
 <!-- #footer end -->

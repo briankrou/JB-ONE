@@ -9,7 +9,9 @@
 class Mail
 {
     private $nombre;
+    private $apellido
     private $email;
+    private $telefono
     private $mensaje;
 
     /**
@@ -31,6 +33,22 @@ class Mail
     /**
      * @return mixed
      */
+        public function getApellido()
+    {
+        return $this->apellido;
+    }
+
+    /**
+     * @param mixed $apellido
+     */
+    public function setApellido($apellido)
+    {
+        $this->apellido = $apellido;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getEmail()
     {
         return $this->email;
@@ -42,6 +60,37 @@ class Mail
     public function setEmail($email)
     {
         $this->email = $email;
+    }
+
+    /**
+     * @return mixed
+     */
+        public function getTelefono()
+    {
+        return $this->telefono;
+    }
+
+    /**
+     * @param mixed $telefono
+     */
+    public function setTelefono($telefono)
+    {
+        $this->telefono = $telefono;
+    }
+        /**
+     * @return mixed
+     */
+        public function getAsunto()
+    {
+        return $this->asunto;
+    }
+
+    /**
+     * @param mixed $asunto
+     */
+    public function setAsunto($asunto)
+    {
+        $this->asunto = $asunto;
     }
 
     /**
@@ -62,14 +111,16 @@ class Mail
 
     public function enviar()
     {
-        $email_a = "javiergv1024@gmail.com";
+        $email_a = "jboneiformacion@jboneweb.com";
         /*Asunto del correo electrónico*/
-        $email_sujeto = "Mensaje de página web Máster Color JF";
+        $email_sujeto = "Mensaje de página web jboneweb.com";
 
         $email_mensaje = "Nombre: " . $this->nombre . "\n";
+        $email_mensaje = "Apellido: " . $this->apellido . "\n";
         $email_mensaje .= "Email: " . $this->email . "\n";
+        $email_mensaje = "Telefono: " . $this->telefono . "\n";
+        $email_mensaje = "Asunto: " . $this->asunto . "\n";
         $email_mensaje .= "Mensaje: " . $this->mensaje;
-        $email_mensaje .= "Mensaje: " . $this->telefono;
 
         $headers = "De: ". $this->email . "\r\n" . "Responder a: ". $this->email . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 
